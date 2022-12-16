@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paper Wallet"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#b7e2df"
+        android:layout_marginBottom="15dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6CBC6F"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vaccination Card"
+            android:drawableLeft="@drawable/ic_baseline_health_and_safety_24"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:id="@+id/VaccinationCardName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VaccinationCardName"
+            android:layout_marginTop="20dp"
+            android:text="Name: "
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/Card_TxT"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identity Card: "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/Card_TxT"
+            android:textColor="#FF000000"
+            android:id="@+id/IdentityPaperWallet"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IdentityPaperWallet"
+            android:text="Vaccine Name: "
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/PaperWalletVaccineName"
+            />
+
+        <RadioButton
+            android:id="@+id/firstDose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/PaperWalletVaccineName"
+            android:text="First Dose"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:gravity="left|center_vertical"
+            />
+        <TextView
+            android:id="@+id/DateofFirstDose"
+            android:layout_below="@id/firstDose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:id="@+id/secondDose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/DateofFirstDose"
+            android:text="Second Dose"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="right|center_vertical"
+            />
+        <TextView
+            android:id="@+id/DateofSecondDose"
+            android:layout_below="@id/secondDose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            />
+        <RadioButton
+            android:id="@+id/thirdDose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:layout_below="@id/DateofSecondDose"
+            android:text="Third Dose"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:gravity="right|center_vertical"
+            />
+        <TextView
+            android:id="@+id/DateofThirdDose"
+            android:layout_below="@id/thirdDose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="15dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
