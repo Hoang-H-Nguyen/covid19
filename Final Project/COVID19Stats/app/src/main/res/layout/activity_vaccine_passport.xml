@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#b7e2df"
+        android:gravity="center"
+        android:text="Vaccine Passport"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/VaccinePassportName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/person"
+            android:padding="4dp"
+            android:text="Full Name: "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/VaccinePassportDoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VaccinePassportName"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="4dp"
+            android:padding="4dp"
+            android:text="Date Of Birth: "
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VaccinePassportDoB"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/language"
+            android:drawablePadding="4dp"
+            android:padding="4dp"
+            android:text="Country: "
+            android:textColor="#000000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33C458">
+
+        <TextView
+            android:id="@+id/CertificateTxT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Certificated Vaccine for having been Vaccinated against Covid 19"
+            android:textColor="#BA0C2E"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@id/CertificateTxT"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/certificated_vaccine" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

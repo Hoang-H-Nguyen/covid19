@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#b7e2df"
+    tools:context=".userInformation"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal information"
+            android:textAlignment="center"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:alpha="0.9"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Full name"
+                    android:textSize="50px"></TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="20px"
+                    android:background="@drawable/border"></EditText>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Sex"
+                    android:textSize="50px"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:text="Male"
+                    android:layout_weight="1"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:text="Female"
+                    android:layout_weight="1"></RadioButton>
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:text="Other"
+                    android:layout_weight="1"></RadioButton>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20px"
+                    android:text="Date of birth"
+                    android:textSize="50px"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="150px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    android:background="@drawable/border"></EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35px"
+                    android:text="/"
+                    android:textSize="100px"></TextView>
+                <EditText
+                    android:layout_width="150px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="@drawable/border">
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35px"
+                    android:text="/"
+                    android:textSize="100px"></TextView>
+                <EditText
+                    android:layout_width="230px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:background="@drawable/border">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Identity Card/Passport number"
+                    android:textSize="50px"
+                    android:layout_margin="20px">
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:layout_margin="20px">
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone number"
+                    android:textSize="50px"
+                    android:layout_margin="20px">
+                </TextView>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:layout_margin="20px">
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nationality"
+                    android:textSize="50px"
+                    android:layout_margin="20px">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:backgroundTint="#000063"
+                android:layout_gravity="center">
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
