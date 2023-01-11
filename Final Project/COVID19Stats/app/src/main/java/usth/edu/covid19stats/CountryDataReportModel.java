@@ -73,27 +73,27 @@ public class CountryDataReportModel {
 
     @Override
     public String toString() {
-        return "country='" + country + ':' +
-                "\n cases=" + cases +
-                "\n todayCases=" + todayCases +
-                "\n deaths=" + deaths +
-                "\n todayDeaths=" + todayDeaths +
-                "\n recovered=" + recovered +
-                "\n todayRecovered=" + todayRecovered +
-                "\n active=" + active +
-                "\n critical=" + critical +
-                "\n casesPerOneMillion=" + casesPerOneMillion +
-                "\n deathsPerOneMillion=" + deathsPerOneMillion +
-                "\n tests=" + tests +
-                "\n testsPerOneMillion=" + testsPerOneMillion +
-                "\n population=" + population +
-                "\n continent='" + continent + '\'' +
-                "\n oneCasePerPeople=" + oneCasePerPeople +
-                "\n oneDeathPerPeople='" + oneDeathPerPeople + '\'' +
-                "\n oneTestPerPeople=" + oneTestPerPeople +
-                "\n activePerOneMillion=" + activePerOneMillion +
-                "\n recoveredPerOneMillion=" + recoveredPerOneMillion +
-                "\n criticalPerOneMillion=" + criticalPerOneMillion;
+        return "Country " + country + ':' +
+                "\n Cases: " + cases +
+                "\n Today Cases: " + todayCases +
+                "\n Deaths: " + deaths +
+                "\n Today Deaths: " + todayDeaths +
+                "\n Recovered: " + recovered +
+                "\n Today Recovered: " + todayRecovered +
+                "\n Active: " + active +
+                "\n Critical: " + critical +
+                "\n Cases Per One Million: " + casesPerOneMillion +
+                "\n Deaths Per One Million: " + deathsPerOneMillion +
+                "\n Tests: " + tests +
+                "\n Tests Per One Million: " + testsPerOneMillion +
+                "\n Population: " + population +
+                "\n Continent: " + continent + '\'' +
+                "\n One Case Per People: " + oneCasePerPeople +
+                "\n One Death Per People: " + oneDeathPerPeople + '\'' +
+                "\n One Test Per People: " + oneTestPerPeople +
+                "\n Active Per One Million: " + activePerOneMillion +
+                "\n Recovered Per One Million: " + recoveredPerOneMillion +
+                "\n Critical Per One Million: " + criticalPerOneMillion;
     }
 
     public String getCountry() {

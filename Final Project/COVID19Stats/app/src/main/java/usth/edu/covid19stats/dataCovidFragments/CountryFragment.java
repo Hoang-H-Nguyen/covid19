@@ -39,7 +39,7 @@ import usth.edu.covid19stats.EvedydayCountryData;
 import usth.edu.covid19stats.MySingleton;
 import usth.edu.covid19stats.R;
 
-public class CountryFragment extends Fragment {
+public class CountryFragment extends Fragment {// Fragment for recent day data
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

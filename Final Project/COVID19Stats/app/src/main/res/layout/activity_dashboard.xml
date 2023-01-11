@@ -135,7 +135,7 @@
                                 android:id="@+id/handbookTxt"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Handbook"
+                                android:text="Vaccine Status"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"

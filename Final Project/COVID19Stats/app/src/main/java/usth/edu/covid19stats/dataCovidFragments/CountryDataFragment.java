@@ -20,7 +20,7 @@ import usth.edu.covid19stats.CovidDataService;
 import usth.edu.covid19stats.R;
 
 
-public class CountryDataFragment extends Fragment {
+public class CountryDataFragment extends Fragment { // Fragment show for the total data of a country
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -16,9 +16,9 @@ public class EvedydayCountryData {
     @Override
     public String toString() {
         return day +
-                "\ncases=" + cases +
-                "\ndeaths=" + deaths +
-                "\nrecovered=" + recovered;
+                "\nCases: " + cases +
+                "\nDeaths: " + deaths +
+                "\nRecovered: " + recovered;
     }
 
 

@@ -38,7 +38,7 @@ import usth.edu.covid19stats.EvedydayCountryData;
 import usth.edu.covid19stats.EverydayWorld;
 import usth.edu.covid19stats.R;
 
-public class OverallFragment extends Fragment {
+public class OverallFragment extends Fragment { //Draw 3 graphs
 
     PieChart pieChartTotal;
     PieChart pieChartToday;
